@@ -10,89 +10,83 @@
     android:background="@color/white"
     tools:context=".Login">
 
-    <Space
-        android:layout_width="20dp"
-        android:layout_height="20dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:gravity="center_horizontal|center_vertical">
 
-    <TextView
-        android:text="Login"
-        android:textColor="#8800AA"
-        android:textStyle="italic|bold"
-        android:textSize="30dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="20dp"/>
 
-    <Space
-        android:layout_width="20dp"
-        android:layout_height="40dp"/>
+        <TextView
+            android:text="Login"
+            style="@style/title01"/>
 
-    <TextView
-        android:text="User"
-        android:textColor="@color/black"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="40dp"/>
 
-    <EditText
-        android:textColor="@color/black"
-        android:hint="user"
-        android:textColorHint="#888888"
-        android:background="#AAEEEE"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"/>
+        <TextView
+            android:text="User"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
 
-    <Space
-        android:layout_width="20dp"
-        android:layout_height="20dp"/>
+        <EditText
+            android:textColor="@color/black"
+            android:hint="@string/user"
+            style="@style/edit01"/>
 
-    <TextView
-        android:text="Password"
-        android:textColor="@color/black"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="20dp"/>
 
-    <EditText
-        android:textColor="@color/black"
-        android:hint="password"
-        android:textColorHint="#888888"
-        android:background="#AAEEEE"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:inputType="textPassword"/>
+        <TextView
+            android:text="Password"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
 
-    <Space
-        android:layout_width="20dp"
-        android:layout_height="20dp"/>
+        <EditText
+            android:textColor="@color/black"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            style="@style/edit01"/>
 
-    <Button
-        android:id="@+id/btn_enter"
-        android:text="Enter"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"/>
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="40dp"/>
 
-    <Space
-        android:layout_width="20dp"
-        android:layout_height="60dp"/>
+        <Button
+            android:id="@+id/btn_enter"
+            android:text="@string/enter"
+            style="@style/button01"/>
 
-    <TextView
-        android:text="Did you forget your password?"
-        android:textColor="#8800AA"
-        android:textSize="20dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="60dp"/>
 
-    <Space
-        android:layout_width="20dp"
-        android:layout_height="20dp"/>
+        <TextView
+            android:text="@string/did_you_forget_your_password"
+            style="@style/text01"/>
 
-    <TextView
-        android:text="Reset my password"
-        android:textColor="#8800AA"
-        android:textSize="20dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="20dp"/>
 
-    <Space
-        android:layout_width="20dp"
-        android:layout_height="20dp"/>
+        <TextView
+            android:id="@+id/txv_reset"
+            android:text="@string/reset_my_password"
+            style="@style/text01" />
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="20dp"/>
+
+
+    </LinearLayout>
 
 </LinearLayout>

@@ -2,4 +2,13 @@
     <string name="app_name">StelarBank</string>
     <string name="navigation_drawer_open">Open</string>
     <string name="navigation_drawer_close">Close</string>
+    <string name="enter">Enter</string>
+    <string name="password">password</string>
+    <string name="user">user</string>
+    <string name="reset_my_password">Reset my password</string>
+    <string name="did_you_forget_your_password">Did you forget your password?</string>
+    <string name="welcome_to_stelarbank">Welcome to StelarBank</string>
+    <string name="transferencias">Transferencias</string>
+    <string name="saldo">Saldo</string>
+    <string name="stelarbank">StelarBank</string>
 </resources>
