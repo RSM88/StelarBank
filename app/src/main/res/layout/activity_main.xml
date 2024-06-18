@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:text="Welcome to StelarBank"
+                android:textSize="30dp"
+                android:textColor="#8800AA"
+                android:textStyle="italic|bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="40dp"/>
+
+            <TextView
+                android:background="@drawable/stelar01"
+                android:text="Thank you very much to trust you money to us. We're honored to protect your savings. We're continue inproving all our services for you."
+                android:textSize="20dp"
+                android:textColor="#00AAAA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="40dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/finanzas02"/>
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="20dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:gravity="center">
+                <Button
+                    android:text="Transferencias"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"/>
+                <Space
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"/>
+                <Button
+                    android:text="Saldo"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:gravity="center">
+                <Button
+                    android:text="Otra Opcion"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"/>
+                <Space
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"/>
+                <Button
+                    android:text="Otra Opcion"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="20dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/stelar02"/>
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="20dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:gravity="center">
+                <Button
+                    android:text="Otras Opciones"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"/>
+                <Space
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"/>
+                <Button
+                    android:text="Mas Opciones"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:text="Otras opciones"
+                android:textColor="#0088FF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:text="Otras opciones"
+                android:textColor="#0088FF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="20dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/stelar02"/>
+
+            <TextView
+                android:text="Otras opciones"
+                android:textColor="#0088FF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="60dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/finanzas01"/>
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="60dp"/>
+
+            <TextView
+                android:text="Otras opciones"
+                android:textColor="#0088FF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="60dp"/>
+
+            <TextView
+                android:text="StelarBank is registered brand of Stelita SA de CV Criminal Corporation v 1.0 :)"
+                android:textColor="#223344"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="40dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
