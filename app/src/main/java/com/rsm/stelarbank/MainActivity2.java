@@ -1,11 +1,10 @@
 package com.rsm.stelarbank;
 
+import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.os.PersistableBundle;
 import android.view.MenuItem;
-import android.view.ViewGroup;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -17,6 +16,9 @@ import androidx.drawerlayout.widget.DrawerLayout;
 
 import com.google.android.material.navigation.NavigationView;
 
+// Vista principal
+// Muestra textos, imagenes, botones con diferentes opciones
+// Incluye icono sup. izq. para desplegar menu lateral
 public class MainActivity2 extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
     private DrawerLayout drawer;
@@ -25,11 +27,14 @@ public class MainActivity2 extends AppCompatActivity implements NavigationView.O
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        // Contenedor principal
         setContentView(R.layout.activity_main2);
 
+        // Barra de herramientas
         Toolbar toolbar = findViewById(R.id.toolbar_main);
         setSupportActionBar(toolbar);
 
+        // menu lateral deslizable
         drawer = findViewById(R.id.drawer_layout);
         toggle = new ActionBarDrawerToggle(this,drawer,toolbar,R.string.navigation_drawer_open,R.string.navigation_drawer_close);
         drawer.addDrawerListener(toggle);
@@ -44,17 +49,24 @@ public class MainActivity2 extends AppCompatActivity implements NavigationView.O
     }
 
 
+    // Se configuran las acciones al seleccionar las opciones del menu
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
 
         if(item.getItemId() == R.id.nav_item_one){
-            Toast.makeText(getApplicationContext(), "Item 1", Toast.LENGTH_LONG).show();
+            //Toast.makeText(getApplicationContext(), "Item 1", Toast.LENGTH_LONG).show();
+            Intent intent = new Intent(MainActivity2.this, MiCuenta.class);
+            startActivity(intent);
         }
         if(item.getItemId() == R.id.nav_item_two){
-            Toast.makeText(getApplicationContext(), "Item 2", Toast.LENGTH_LONG).show();
+            //Toast.makeText(getApplicationContext(), "Item 2", Toast.LENGTH_LONG).show();
+            Intent intent = new Intent(MainActivity2.this, Transferencias.class);
+            startActivity(intent);
         }
         if(item.getItemId() == R.id.nav_item_three){
-            Toast.makeText(getApplicationContext(), "Item 3", Toast.LENGTH_LONG).show();
+            //Toast.makeText(getApplicationContext(), "Item 3", Toast.LENGTH_LONG).show();
+            Intent intent = new Intent(MainActivity2.this, Inversiones.class);
+            startActivity(intent);
         }
 
         drawer.closeDrawer(GravityCompat.START);

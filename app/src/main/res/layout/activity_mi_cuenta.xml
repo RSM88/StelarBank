@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_margin="5dp"
+    android:background="@color/white"
+    tools:context=".MiCuenta">
+
+    <Space
+        android:layout_width="20dp"
+        android:layout_height="20dp"/>
+
+    <TextView
+        android:text="MiCuenta"
+        android:textColor="#773399"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Space
+        android:layout_width="20dp"
+        android:layout_height="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:gravity="left|center_vertical"
+        android:background="#EEEEFF">
+        <TextView
+            android:text="Saldo disponible:"
+            android:textColor="@color/black"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"/>
+        <Space
+            android:layout_width="40dp"
+            android:layout_height="20dp"/>
+        <TextView
+            android:text="$ 5000.00"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <Space
+        android:layout_width="20dp"
+        android:layout_height="20dp"/>
+
+    <TextView
+        android:text="Movimientos mes anterios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:gravity="left|center_vertical"
+        android:background="#FFEEFF">
+        <TextView
+            android:text="Retiros:"
+            android:textColor="@color/black"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"/>
+        <Space
+            android:layout_width="40dp"
+            android:layout_height="20dp"/>
+        <TextView
+            android:text="$ 75000.00"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <Space
+        android:layout_width="20dp"
+        android:layout_height="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:gravity="left|center_vertical"
+        android:background="#AAFFFF">
+        <TextView
+            android:text="Depositos:"
+            android:textColor="@color/black"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"/>
+        <Space
+            android:layout_width="40dp"
+            android:layout_height="20dp"/>
+        <TextView
+            android:text="$ 80000.00"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <Space
+        android:layout_width="20dp"
+        android:layout_height="20dp"/>
+
+    <Space
+        android:layout_width="20dp"
+        android:layout_height="20dp"/>
+
+
+</LinearLayout>

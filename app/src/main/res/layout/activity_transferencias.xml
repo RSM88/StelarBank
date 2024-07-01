@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_margin="5dp"
+    tools:context=".Transferencias">
+
+    <Space
+        android:layout_width="20dp"
+        android:layout_height="20dp"/>
+
+    <TextView
+        android:text="Transferencias"
+        android:textColor="#773399"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Space
+        android:layout_width="20dp"
+        android:layout_height="60dp"/>
+
+    <TextView
+        android:text="Hacer una transferencia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Space
+        android:layout_width="20dp"
+        android:layout_height="20dp"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:gravity="left">
+        <TextView
+            android:text="Cuentas propias"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"/>
+        <Space
+            android:layout_width="40dp"
+            android:layout_height="20dp"/>
+        <Button
+            android:text="Seleccionar cuenta"
+            style="@style/button02"/>
+    </LinearLayout>
+
+    <Space
+        android:layout_width="20dp"
+        android:layout_height="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:gravity="left">
+        <TextView
+            android:text="CuentasStelar Bank"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"/>
+        <Space
+            android:layout_width="40dp"
+            android:layout_height="20dp"/>
+        <Button
+            android:text="Seleccionar cuenta"
+            style="@style/button02"/>
+    </LinearLayout>
+
+    <Space
+        android:layout_width="20dp"
+        android:layout_height="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:gravity="left">
+        <TextView
+            android:text="Otros bancos"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"/>
+        <Space
+            android:layout_width="40dp"
+            android:layout_height="20dp"/>
+        <Button
+            android:text="Seleccionar cuenta"
+            style="@style/button02"/>
+    </LinearLayout>
+
+    <Space
+        android:layout_width="20dp"
+        android:layout_height="20dp"/>
+
+</LinearLayout>

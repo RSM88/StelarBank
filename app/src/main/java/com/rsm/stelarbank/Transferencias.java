@@ -2,17 +2,15 @@ package com.rsm.stelarbank;
 
 import android.os.Bundle;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity extends AppCompatActivity {
+// Vista para seleccionar inversiones
+public class Transferencias extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_main);
-
+        setContentView(R.layout.activity_transferencias);
 
     }
 }
